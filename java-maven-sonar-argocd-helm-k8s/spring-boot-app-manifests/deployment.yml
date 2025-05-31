@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: iamnk007/ultimate-cicd:replaceImageTag
+        image: iamnk007/jenkins-agent:replaceImageTag
         ports:
         - containerPort: 8080
